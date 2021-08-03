@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Formulario de contacto</title>
+    <link rel="stylesheet" href="css/CSS.css">
+</head>
+<body>
+    <body>
+        <header><img
+            src="https://scontent.fluq5-1.fna.fbcdn.net/v/t1.6435-9/116335184_111741010630321_7310118485584848835_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=lmL9v_ebgtEAX9xdHOc&tn=Nbthw4JGtl7lJCTS&_nc_ht=scontent.fluq5-1.fna&oh=5dba1fded0c410826b439d7b619a3083&oe=612B6269"
+            alt="" width="100" height="100">
+            <script src="https://kit.fontawesome.com/7d3bc96d68.js" crossorigin="anonymous"></script>
+        </header>
+    
+    
+            <nav class="menu">
+        
+                <div id= "navegador">
+                    <ul>
+                    <li>
+                        <a class="menuItem" href="index.html" id="inicio">INICIO</a>
+                    </li>
+                    <li>
+                        <a class="menuItem" href="pagina-1.html" id="productos">PRODUCTOS</a>
+                    </li>
+        
+                    <li>
+                        <a class="menuItem" href="pagina-2.html" id="contacto">CONTACTO</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+        
+          <div class="contact_form">
+        
+            <div class="formulario">      
+              <h4>Formulario de contacto</h2>
+                <h5>Escribinos y en breve nos pondremos en contacto con vos</h5>
+        
+        
+                  <form action="submeter-formulario.php" method="post">       
+        
+                    
+                        <p>
+                          <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                        </p>
+                      
+                        <p>
+                          <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                        </p>
+                    
+                        <p>
+                          <label for="telefone" class="colocar_telefono">Teléfono
+                          </label>
+                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                        </p>    
+                      
+        
+                      
+                        <p>
+                          <label for="asunto" class="colocar_asunto">Asunto
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                        </p>    
+                      
+                        <p>
+                          <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                          </label>                     
+                                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                        </p>                    
+                      
+                        <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+        
+                        <p class="aviso">
+                          <span class="obligatorio"> * </span>los campos son obligatorios.
+                        </p>          
+                    
+                  </form>
+            </div>  
+          </div>
+
+          <footer>
+            <hr>
+
+            <a href="https://www.facebook.com/indomita.luz.1004"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="https://www.instagram.com/indomita.luz1/?fbclid=IwAR06Dp_yBoQsXZNrd0psA-iLsznUQPozrRHUnZoM3KQqvUT8XEXusuiXh-4"><i class="fab fa-instagram fa-2x"></i></a>
+        </footer>
+
+        
+        </body>
+        </html>
+        
