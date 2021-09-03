@@ -1,4 +1,6 @@
-body {
+
+ 
+ body {
 	background-color: rgb(137, 247, 205);
 }
 
@@ -140,15 +142,16 @@ color: #ffffff;}
 
 .contenedor-imagenes {
     float:right;
-display:inline;
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 
 }
 
 .contenedor-imagenes img:first-child {
+  float: right;
 display: grid;
 grid-template-columns: repeat(3, 1fr);
+;
 }
 img {border-radius: 70px;}
 
